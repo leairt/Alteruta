@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+  <meta charset="utf-8">
+  <title id="title">Alteruta | Početna </title>
+  <link href="gallery/all/logo_black.jpg" rel="icon">
+  <link href="assets/img/apple-touch-icon.jpg" rel="apple-touch-icon">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="assets/css/styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="topbar" role="banner" aria-label="Alteruta top bar">
+    <div class="container d-flex align-items-center gap-3">
+      <img class="topbar-logo" src="gallery/all/logo.jpg">
+      <h1 class="topbar-header">ALTERUTA</h1>
+    </div>
+  </div>
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div
+      class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <h1>ALTERUTA</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a id="menu-home" href="index.html" class="active">Početna</a></li>
+          <li><a id="menu-gallery" href="gallery.html">Galerija</a></li>
+          <li class="dropdown">
+            <a href="#"><span id="menu-trips">Aranžmani</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a id="menu-europe" href="europe.html">Evropa</a></li>
+              <li><a id="menu-summer" href="summer-2025.html">Leto 2025</a></li>
+              <li><a id="menu-winter" href="winter-2025.html">Zima 2025</a></li>
+              <li><a id="menu-newyear" href="newyear-2026.html">Nova godina 2026</a></li>
+            </ul>
+          </li>
+          <li><a id="menu-profile" href="my-profile.html">Moj nalog</a></li>
+          <li><a id="menu-about" href="about.html">O nama</a></li>
+          <li><a id="menu-contact" href="contact.html">Kontakt</a></li>
+          <li><a id="menu-partners" href="partners.html">Naši partneri</a></li>
+
+          <li class="dropdown">
+            <a href="#"><span id="menu-lang">Jezik</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li>
+                <a href="#" onclick="setLanguage('sr')">
+                  <img src="https://flagcdn.com/w20/rs.jpg" style="width:20px; height:14px; margin-right:6px;">
+                  SR
+                </a>
+              </li>
+              <li>
+                <a href="#" onclick="setLanguage('en')">
+                  <img src="https://flagcdn.com/w20/us.jpg" style="width:20px; height:14px; margin-right:6px;">
+                  EN
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <section id="travel-hero" class="travel-hero section dark-background">
+      <div class="hero-background">
+        <img src="gallery/all/background_long.jpg">
+        <div class="hero-overlay"></div>
+      </div>
+    </section>
+
+    <section id="why-us" class="why-us section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center mb-5">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+            <div class="content">
+              <h3 id="whyus-title">Istražite svet sa našom agencijom</h3>
+              <p id="whyus-p1">
+                Naša misija je da svako putovanje učinimo jednostavnim i bezbrižnim. Dok mi brinemo o svim detaljima,
+                vama ostaje da uživate u istraživanju novih destinacija.
+              </p>
+              <p id="whyus-p2">
+                Uz pažljivo birane destinacije, proverene partnere i podršku našeg tima, dobićete putovanje skrojeno po
+                vašoj meri.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+            <div class="about-image">
+              <img src="gallery/all/background.jpg" class="img-fluid rounded-4">
+            </div>
+          </div>
+        </div>
+
+        <div class="why-choose-section">
+          <div class="row justify-content-center">
+            <div class="col-lg-8 text-center mb-5" data-aos="fade-up" data-aos-delay="100">
+              <div class="container section-title" data-aos="fade-up">
+                <div><span class="description-title" id="guides-title">Naši vodiči</span></div>
+              </div>
+              <p id="guides-subtitle">
+                Naši vodiči mladi i energični ljudi. Iskusni su u svom poslu, licencirani i dobro povezani sa lokalnim zajednicama. Oni su vaša ulaznica u
+                autentična iskustva i skrivene dragulje svake destinacije.
+              </p>
+            </div>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="feature-card text-center">
+                <img src="assets/img/person/person-m-12.webp" class="rounded-circle mb-3"
+                  style="width:80px; height:80px; object-fit:cover;">
+                <h4 id="g1-name">Alesa Milić</h4>
+                <p id="g1-bio">Uvek nasmejan i spreman da pomogne, brine se da svako putovanje protekne bez stresa.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="250">
+              <div class="feature-card text-center">
+                <img src="assets/img/person/person-f-9.webp" class="rounded-circle mb-3"
+                  style="width:80px; height:80px; object-fit:cover;">
+                <h4 id="g2-name">Lea Irt</h4>
+                <p id="g2-bio">Voli da deli svoja iskustva i inspiriše putnike da svako putovanje dožive na jedinstven
+                  način.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="feature-card text-center">
+                <img src="assets/img/person/person-f-15.webp" class="rounded-circle mb-3"
+                  style="width:80px; height:80px; object-fit:cover;">
+                <h4 id="g3-name">Dušica Petrović</h4>
+                <p id="g3-bio">Njena energija i entuzijazam inspirišu grupu da svako putovanje postane nezaboravna
+                  avantura.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="350">
+              <div class="feature-card text-center">
+                <img src="assets/img/person/person-f-5.webp" class="rounded-circle mb-3"
+                  style="width:80px; height:80px; object-fit:cover;">
+                <h4 id="g4-name">Minja Krivokapić</h4>
+                <p id="g4-bio">Zna sve najbolje mesta za šoping i lokalne pijace gde se nalaze pravi suveniri.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+              <div class="feature-card text-center">
+                <img src="assets/img/person/person-m-7.webp" class="rounded-circle mb-3"
+                  style="width:80px; height:80px; object-fit:cover;">
+                <h4 id="g5-name">Željko Simić</h4>
+                <p id="g5-bio">Istoričar po obrazovanju, pretvara svako putovanje u zanimljivu priču o prošlosti i
+                  tradiciji.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="450">
+              <div class="feature-card text-center">
+                <img src="assets/img/person/person-m-10.webp" class="rounded-circle mb-3"
+                  style="width:80px; height:80px; object-fit:cover;">
+                <h4 id="g6-name">Nikola Jovanović</h4>
+                <p id="g6-bio">Stručnjak za lokalnu gastronomiju, preporučuje autentične specijalitete i najbolje
+                  restorane.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="featured-tours" class="featured-tours section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <div><span class="description-title" id="featured-title">Najpopularnije destinacije</span></div>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="tour-card">
+              <div class="tour-image">
+                <img src="gallery/summer-2025/malta/1.jpg" class="img-fluid" loading="lazy">
+                <div class="tour-price" id="malta-price">Cena već od 460€</div>
+              </div>
+              <div class="tour-content">
+                <h4 id="malta-title">Malta</h4>
+                <div class="tour-meta">
+                  <span class="duration">
+                    <i class="bi bi-clock"></i> <span id="malta-duration">7 dana</span>
+                  </span>
+                  <span class="group-size">
+                    <i class="bi bi-people"></i> <span id="malta-group">16 putnika</span>
+                  </span>
+                </div>
+                <p id="malta-desc">Sunčana ostrvska zemlja sa bogatom istorijom, tirkiznim morem i slikovitim gradovima.
+                </p>
+                <div class="tour-action">
+                  <a href="malta.html" class="btn-book" id="malta-link">Pogledajte ponudu</a>
+                  <div class="tour-rating">
+                    <i class="bi bi-star-fill"></i>
+                    <span><span id="rate-malta"></span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="tour-card">
+              <div class="tour-image">
+                <img src="gallery/winter-2025/cambodia/1.jpg" class="img-fluid" loading="lazy">
+                <div class="tour-price" id="cambodia-price">Cena već od 1590€</div>
+              </div>
+              <div class="tour-content">
+                <h4 id="cambodia-title">Kambodža</h4>
+                <div class="tour-meta">
+                  <span class="duration">
+                    <i class="bi bi-clock"></i> <span id="cambodia-duration">23 dana</span>
+                  </span>
+                  <span class="group-size">
+                    <i class="bi bi-people"></i> <span id="cambodia-group">12 putnika</span>
+                  </span>
+                </div>
+                <p id="cambodia-desc">Egzotična zemlja drevnih hramova, tropske prirode i bogate kulture jugoistočne
+                  Azije.</p>
+                <div class="tour-action">
+                  <a href="cambodia.html" class="btn-book" id="cambodia-link">Pogledajte ponudu</a>
+                  <div class="tour-rating">
+                    <i class="bi bi-star-fill"></i>
+                    <span><span id="rate-cambodia"></span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="tour-card">
+              <div class="tour-image">
+                <img src="gallery/winter-2025/morocco/1.jpg" class="img-fluid" loading="lazy">
+                <div class="tour-price" id="morocco-price">Cena već od 690€</div>
+              </div>
+              <div class="tour-content">
+                <h4 id="morocco-title">Maroko</h4>
+                <div class="tour-meta">
+                  <span class="duration">
+                    <i class="bi bi-clock"></i> <span id="morocco-duration">14 dana</span>
+                  </span>
+                  <span class="group-size">
+                    <i class="bi bi-people"></i> <span id="morocco-group">8 putnika</span>
+                  </span>
+                </div>
+                <p id="morocco-desc">Orijentalni bazari, saharske dine i živopisni gradovi čine Maroko posebnom
+                  destinacijom.</p>
+                <div class="tour-action">
+                  <a href="morocco.html" class="btn-book" id="morocco-link">Pogledajte ponudu</a>
+                  <div class="tour-rating">
+                    <i class="bi bi-star-fill"></i>
+                    <span><span id="rate-morocco"></span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials-home" class="testimonials-home section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <div><span id="testimonials-title" class="description-title">Komentari naših putnika</span></div>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+      {
+        "loop": true,
+        "speed": 600,
+        "autoplay": {
+          "delay": 5000
+        },
+        "slidesPerView": "auto",
+        "pagination": {
+          "el": ".swiper-pagination",
+          "type": "bullets",
+          "clickable": true
+        },
+        "breakpoints": {
+          "320": {
+            "slidesPerView": 1,
+            "spaceBetween": 40
+          },
+          "1200": {
+            "slidesPerView": 3,
+            "spaceBetween": 1
+          }
+        }
+      }
+      </script>
+
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span id="comment1">Putovanje koje smo organizovali preko Alterute je bilo savršeno! Sve je bilo
+                    pažljivo
+                    isplanirano, a vodič je bio sjajan i uvek na raspolaganju.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <h3>Ana Mitić</h3>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span id="comment2">Već treću godinu putujemo sa ovom agencijom i svaki put ostanemo oduševljeni.
+                    Aranžmani su
+                    povoljni, a usluga na visokom nivou.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <h3>Aleksa Marković</h3>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span id="comment3">Najlepši letnji odmor ikada! Hotel je bio izvanredan, transferi bez ikakvih
+                    problema i odlična
+                    komunikacija sa agentima.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <h3>Milica Milić</h3>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span id="comment4">Najviše mi se dopalo što je agencija prilagodila aranžman baš našim željama. Sve
+                    preporuke za
+                    Alterutu!</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <h3>Matija Nestorović</h3>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span id="comment5">Putovala sam sa drugaricama u Rim i sve je bilo organizovano do detalja. Alteruta
+                    je agencija
+                    kojoj verujem i kojoj ću se sigurno vraćati.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <h3>Lana Antić</h3>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+
+    </section>
+
+    <section id="travel-destination-details" class="travel-destination-details section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="practical-info" data-aos="fade-up" data-aos-delay="600">
+          <div class="section-header">
+            <h2 id="partners">Naši partneri</h2>
+            <p id="partners-description">Posetite vebsajtove naših partnera</p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 mb-4" data-aos="fade-up" data-aos-delay="100">
+              <a href="https://www.booking.com" target="_blank" class="text-decoration-none">
+                <div class="info-item text-center">
+                  <img src="assets/img/travel/booking.jpg"
+                    style="width:100%; height:150px; object-fit:contain; display:block;">
+                  <h4>Booking</h4>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12 mb-4" data-aos="fade-up" data-aos-delay="100">
+              <a href="https://www.yuta.rs" target="_blank" class="text-decoration-none">
+                <div class="info-item text-center">
+                  <img src="assets/img/travel/yuta.jpg"
+                    style="width:100%; height:150px; object-fit:contain; display:block;">
+                  <h4>Yuta</h4>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12 mb-4" data-aos="fade-up" data-aos-delay="100">
+              <a href="https://www.airserbia.com" target="_blank" class="text-decoration-none">
+                <div class="info-item text-center">
+                  <img src="assets/img/travel/airserbia.jpg"
+                    style="width:100%; height:150px; object-fit:contain; display:block;">
+                  <h4>Air Serbia</h4>
+                </div>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer position-relative dark-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <h1>Alteruta</h1>
+          <div class="footer-contact pt-3">
+            <p>Bulevar kralja Aleksandra 73</p>
+            <p id="city">11000 Beograd</p>
+            <p class="mt-3"><strong id="phone">Telefon:</strong> <span>+381 65 2106 199</span></p>
+            <p><strong>Email:</strong> <span>alteruta@info.com</span></p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <h4 id="social">Zapratite nas na društvenim mrežama!</h4>
+          <div class="social-links d-flex">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1">2025</strong> <span>Lea Irt i Minja Krivokapić</span></p>
+      <div class="credits">
+        Odsek za softversko inženjerstvo Elektrotehničkog fakulteta Univerziteta u Beogradu
+      </div>
+    </div>
+
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script defer src="assets/js/index.js"></script>
+  <script defer src="assets/js/rate.js"></script>
+  <script defer src="assets/js/script.js"></script>
+
+</body>
+
+</html>

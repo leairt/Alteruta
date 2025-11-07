@@ -1,0 +1,67 @@
+document.addEventListener("DOMContentLoaded", () => {
+    const lang = localStorage.getItem("lang") || "sr"
+    if (lang == "en") {
+        document.getElementById("title").textContent = "Alteruta | Krakow"
+        document.getElementById("menu-home").textContent = "Home"
+        document.getElementById("menu-gallery").textContent = "Gallery"
+        document.getElementById("menu-trips").textContent = "Trips"
+        document.getElementById("menu-europe").textContent = "Europe"
+        document.getElementById("menu-summer").textContent = "Summer 2025"
+        document.getElementById("menu-winter").textContent = "Winter 2025"
+        document.getElementById("menu-newyear").textContent = "New Year 2026"
+        document.getElementById("menu-profile").textContent = "My Profile"
+        document.getElementById("menu-about").textContent = "About Us"
+        document.getElementById("menu-contact").textContent = "Contact"
+        document.getElementById("menu-partners").textContent = "Our Partners"
+        document.getElementById("menu-lang").textContent = "Language"
+        document.getElementById("main-title").textContent = "Krakow"
+        document.getElementById("hero-duration").textContent = "5 days"
+        document.getElementById("hero-destination").textContent = "Poland"
+        document.getElementById("hero-tagline").textContent =
+            "Royal city on the Vistula—Old Town and Cloth Hall, Wawel Castle, Kazimierz, and cozy cafés."
+        document.getElementById("hero-cta").textContent = "Check availability"
+        document.getElementById("what-awaits-title").textContent = "What awaits you in Krakow?"
+        document.getElementById("what-awaits-p1").textContent =
+            "Krakow is a city that fascinates with its rich history and lively atmosphere. At Rynek Główno, the largest square in Europe, you will be greeted by Sukienice, the magnificent Basilica of St. Marie and the picturesque Floriańska Street leading to the Barbican. The ascent to Wawel reveals the Royal Castle and the cathedral, and a walk along the banks of the Vistula provides a real experience of the city. In Kazimierz you will find synagogues, colorful murals and excellent local cuisine."
+        document.getElementById("what-awaits-p2").textContent =
+            "For a complete experience, there are optional excursions: a visit to the Vjeljicka salt mine (UNESCO) with its fascinating underground halls, an educational tour of the Auschwitz-Birkenau memorial complex or a trip to the mountain town of Zakopane and the magnificent Tatras. And when the evening falls – enjoy pierogis and mulled wine at the winter fair."
+        document.getElementById("included-title").innerText = "What’s included?"
+        document.getElementById("inc-flights").innerText = "Round-trip flight (Belgrade – Krakow – Belgrade)"
+        document.getElementById("inc-hotel").innerText = "4 nights in a 4★ hotel (double rooms)"
+        document.getElementById("inc-breakfast").innerText = "Daily breakfast"
+        document.getElementById("inc-transfers").innerText = "Airport ↔ hotel The Bridge transfers"
+        document.getElementById("inc-citytour").innerText = "Panoramic tour: Old Town – Wawel – Kazimierz (local guide)"
+        document.getElementById("inc-wieliczka").innerText = "Wieliczka Salt Mine ticket (basic package)"
+        document.getElementById("inc-support").innerText = "24/7 support in Serbian"
+        document.getElementById("excluded-title").innerText = "What’s not included?"
+        document.getElementById("ex-citytax").innerText = "City/eco taxes (payable at the accommodation)"
+        document.getElementById("ex-meals").innerText = "Lunches and dinners (unless specified otherwise)"
+        document.getElementById("ex-personal").innerText = "Personal expenses and souvenirs"
+        document.getElementById("ex-insurance").innerText = "Travel insurance (recommended)"
+        document.getElementById("ex-tips").innerText = "Tips for guides/drivers (optional)"
+        document.getElementById("ex-optional").innerText = "Optional excursions (Auschwitz–Birkenau Memorial, Zakopane/Tatras)"
+        document.getElementById("ex-alcohol").innerText = "Alcoholic beverages and extra tastings"
+        document.getElementById("ex-visa").innerText = "Visa (if required for your passport)"
+        document.getElementById("ex-single").innerText = "Single room supplement"
+        document.getElementById("prices-title").textContent = "Prices & Dates"
+        document.getElementById("regular-price-title").textContent = "Regular price"
+        document.getElementById("price-amount").textContent = "500€"
+        document.getElementById("price-perperson").textContent = "per person"
+        document.getElementById("departures-title").textContent = "Departures 2025"
+        document.getElementById("avail1").textContent = "Available"
+        document.getElementById("booking-title").textContent = "Book this tour"
+        document.getElementById("travel-date-label").textContent = "Preferred travel date"
+        document.getElementById("travelers-label").textContent = "Number of travelers"
+        document.getElementById("booking-submit").textContent = "Book now"
+        document.getElementById("gallery-title").textContent = "Gallery"
+        document.getElementById("city").textContent = "11000 Belgrade"
+        document.getElementById("phone").textContent = "Phone:"
+        document.getElementById("email-label").textContent = "Email:"
+        document.getElementById("social").textContent = "Follow us on social media!"
+    }
+})
+
+function setLanguage(lang) {
+    localStorage.setItem("lang", lang)
+    location.reload()
+}
